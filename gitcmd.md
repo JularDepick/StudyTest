@@ -1,0 +1,26 @@
+- 切换到目录：`cd C:\Users\liwenfang\GitHub\`
+- 克隆远程仓库到本地：`git clone https://github.com/JularDepick/StudyTest.git`
+- 初始化：`git init`
+- 查看远程仓库信息：`git remote -v`
+- 链接远程仓库：`git remote add origin https://github.com/JularDepick/StudyTest.git`
+- 修改远程仓库地址：`git remote set-url origin 新远程地址`
+- 添加所有更改到暂存区：`git add .`
+- 提交更改：`git commit -m "001"`
+- 推送到远程仓库：`git push -u origin master:main`
+- 拉取远程仓库内容合并到本地：`git pull`
+- 查看git操作记录：`git log`
+- 查看简洁提交记录：`git log --oneline --graph`
+- 回退到某操作时的所有文件：`git checkout [hash] -- .`
+- 彻底回退到指定提交：`git reset --hard [hash]`
+- 通过新提交取消某操作的影响：`git revert [hash]`
+- 撤销工作区的修改：`git checkout -- 文件名`
+- 撤销暂存区的修改：`git reset HEAD 文件名`
+- 创建并切换到新分支：`git checkout -b 新分支名`
+- 查看所有分支：`git branch -a`
+- 切换到已有分支：`git checkout 分支名`
+- 删除本地分支：`git branch -d 分支名`
+- 推送本地新分支到远程：`git push -u origin 新分支名`
+- 查看当前工作区状态：`git status`
+- 暂存当前工作区：`git stash`
+- 恢复暂存的修改：`git stash pop`
+- 删除远程分支：`git push origin --delete 远程分支名`
